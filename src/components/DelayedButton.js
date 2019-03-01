@@ -11,9 +11,3 @@ export default class DelayedButton extends Component {
     return <button onClick={this.handleClick}>Delayed</button>;
   }
 }
-
-// event.persist();
-// setTimeout(() => {
-//   this.props.onDelayedClick(event);
-// }, this.props.delay);
-// };
